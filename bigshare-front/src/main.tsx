@@ -7,11 +7,11 @@ import { SignIn } from './pages/sign-in'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <SignIn />,
+    element: <> Hello world! </>,
   },
   {
     path: '/sign-in',
-    element: <>sign in page!</>,
+    element: <SignIn />,
   },
 ])
 
